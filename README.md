@@ -8,3 +8,8 @@ Microprocessor and embedded system
 如果发现两个相邻元素的顺序不对，即“轻”的元素在下面，就交换它们的位置。显然，处理一遍之后，“最重”的元素就沉到了最低位置；处理二遍之后，“次重”的元素就沉到了次低位置。在作第二遍处理时，由于最低位置上的元素已是“最重”元素，所以不必检查。
 
 一般地，第i遍处理时，不必检查第i低位置以下的元素，因为经过前面i-1遍的处理，它们已正确地排好序。
+![image](https://github.com/saint-000/bubble-sort/blob/master/images/1.PNG)
+![image](https://github.com/saint-000/bubble-sort/blob/master/images/2.PNG)
+![image](https://github.com/saint-000/bubble-sort/blob/master/images/3.PNG)
+![image](https://github.com/saint-000/bubble-sort/blob/master/images/4.PNG)
+![image](https://github.com/saint-000/bubble-sort/blob/master/images/5.PNG)
